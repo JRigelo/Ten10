@@ -1,0 +1,119 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.top {
+    text-align: center;
+}
+
+.sec {
+    margin-top: 60px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.btn-default {
+    text-shadow: 0 1px 0 #333;
+    color: #fff;
+    background-color: #444;
+    border-color: #666;
+    background-image: none;
+    margin-top: 25px;
+}
+
+.btn-default:hover {
+  color: #e6e6e6;
+  background-color: #000;
+  border-color: #666;
+}
+
+@media screen and (min-width: 768px) {
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 52px;
+    }
+}
+
+.h1, h1 {
+    font-size: 45px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 0px;
+}
+
+
+#foot {
+    text-align: left;
+}
+    
+.main-divider {
+    margin: 60px 0;
+}
+  
+.footer-divider {
+    margin: 60px 0px 40px 0px;
+}
+
+footer {
+    margin-bottom: 40px;
+}
+  
+/*main content styles */
+
+@media (min-width: 992px) {
+.main-heading {
+    margin-top: 50px;
+    }
+.second-head {
+    margin-top: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+.main-heading {
+    margin-top: 80px;
+    }
+.second-head {
+    margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px){
+.main-heading, .second-head {
+    font-size: 36px;
+    }
+}
+
+@media (max-width: 992px) { 
+    .main-space {
+    margin-bottom: 40px;    
+    }
+    .main-heading {
+    margin-top: 10px;
+    }
+    .second-head {
+    margin-top: 10px;
+    }
+    .sec {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+

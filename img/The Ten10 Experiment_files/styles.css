@@ -1,0 +1,63 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.top {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+.btn-default {
+    text-shadow: 0 1px 0 #333;
+    color: #fff;
+    background-color: #444;
+    border-color: #666;
+    background-image: none;
+}
+
+.btn-default:hover {
+  color: #e6e6e6;
+  background-color: #000;
+  border-color: #666;
+}
+
+@media screen and (min-width: 768px) {
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 52px;
+    }
+}
+
+.h1, h1 {
+    font-size: 45px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 0px;
+}
+
+
+#foot {
+    text-align: left;
+}
+
+@media (max-width: 480px) {
+.element {
+display: none;
+}
+    
