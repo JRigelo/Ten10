@@ -68,7 +68,7 @@ p {
 }
 
 .footer-divider {
-    margin: 60px 0px 40px 0px;
+    margin: 60px 0px 30px 0px;
 }
 
 footer {
@@ -116,3 +116,8 @@ footer {
         text-align: center;
     }
 }
+
+.tab {
+  position: absolute;
+  left: 3em;
+ }
